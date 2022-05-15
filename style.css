@@ -1,0 +1,128 @@
+*{
+  box-sizing:border-box;
+  margin 0;
+  position: relative;
+}
+/* blocco di sfondo */
+body{
+  display:block;
+  background-image:url( background.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  opacity: 0,3;
+  padding-top: 82rem;
+  padding-bottom:80rem;
+  margin-top:30%;
+}
+/* blocco interno immagine */
+.container{
+  display: block;
+  border-radius: 15px;
+  background-color:rgba(0, 0, 0, 0.5);
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:50%;
+  margin-top:15%;
+  padding-bottom:4%;
+}
+.logo{
+  display: block;
+  width: 200px;
+  margin:0 auto;
+  top:45px;
+}
+.logo-text{
+  text-align: center;
+  top:40px;
+  font-family:Helvetica;
+  font-size:30px;
+  color:lime;
+
+}
+/* stile variabili di input */
+.button{
+  text-align:center;
+  top:30px;
+  border:1px solid;
+  border-color:lime;
+  padding:8px;
+  width:85%;
+  display:block;
+  margin: 0 auto;
+  background:lime;
+  margin-bottom:7px;
+}
+.bio{
+  text-align:left;
+  padding-left: 48px;
+  color: white;
+  line-height: 5px;
+}
+/* stile barra di carica */
+main{
+  padding-bottom:5px;
+  padding top:1rem;
+  text-align: left;
+  line-height: 1rem;
+}
+.text-bio{
+  padding-bottom :2px;
+  line-height:3px;
+  margin-top:5px;
+  padding-left:2%;
+}
+.row{
+  text-align: left;
+  font-family:Helvetica;
+  margin-top:6rem;
+}
+.row1{
+  display: inline-block;
+  border: 1px solid;
+  border-color:#FFF68F;
+  height: 22px;
+  width: 40%;
+  background:#FFF68F;
+  border-radius: 5px;
+}
+.row2{
+  display: inline-block;
+  border: 1px solid;
+  border-color:#00FA9A;
+  height: 22px;
+  width: 60%;
+  background:#00FA9A;
+  border-radius: 5px;
+}
+.row3{
+  display: inline-block;
+  border: 1px solid;
+  border-color:#CD5555;
+  height: 22px;
+  width: 20%;
+  background:#CD5555;
+  border-radius: 5px;
+}
+
+/* impostazioni font */
+
+.text{
+  font-size: 20px;
+  font-family: verdana, sans-serif;
+}
+p{
+  font-size: 12px;
+  font-family: verdana, sans-serif;
+  padding-top:3px;
+  margin-bottom:1rem;
+}
+h2{
+  display:inline-block;
+  border-top:30px;
+  font-size:12px;
+  font-family: verdana, sans-serif;
+  margin-top:8px;
+  margin-bottom:2px;
+  padding-top:2rem;
+}
